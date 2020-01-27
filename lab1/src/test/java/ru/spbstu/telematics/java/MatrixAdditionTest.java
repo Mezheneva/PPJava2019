@@ -6,7 +6,7 @@ import org.junit.Assert;
 public class MatrixAdditionTest
 {
     @Test
-    public void testMultiplication() {
+    public void testAddition() {
 
         int[][]A = {{1,2,3},{4,5,6}};
         int[][]B = {{1,2,3},{4,5,6}};
