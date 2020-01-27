@@ -6,7 +6,7 @@ public class MatrixAddition {
             return null;
         }
 
-        for(int i = 0; i < A.length; i++){
+        for(int i = 0; i < A.length - 1; i++){
             if(A[i].length != A[i+1].length || B[i].length != B[i+1].length){
                 return null;
             }
